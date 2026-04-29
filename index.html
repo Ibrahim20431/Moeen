@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معين | ديماً جاهزين💪</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">
+        <img src="src/logo.png" alt="Logo" class="logo-img">
+        
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="#" class="header__menu-link" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+          <li class="header__menu-item"><a href="#services-grid" class="header__menu-link" data-ar="الخدمات" data-en="Services">الفنيين</a></li>
+          <li class="header__menu-item"><a href="#full-service" class="header__menu-link" data-ar="من نحن" data-en="About Us">التشطيبات</a></li>
+          <li class="header__menu-item"><a href="#who_me" class="header__menu-link" data-ar="طلب خدمة" data-en="Request Service">من نحن</a></li>
+          <li class="header__menu-item"><a href="#form_contact" class="header__menu-link" data-ar="الوظائف" data-en="Jobs">طلب خدمة</a></li>
+          <li class="header__menu-item"><a href="https://tally.so/r/Gx6JKe" target="_blank" class="header__menu-link" data-ar="الأخبار" data-en="News">الوظائف</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <!--<button class="btn btn--outline" data-ar="تسجيل الدخول" data-en="Login">تسجيل الدخول</button>-->
+        <!--<button href="https://wa.me/201110294861?text=مرحباً،%20أريد%20الاستفسار%20عن%20خدماتكم" class="btn btn--primary" data-ar="تواصل واتساب" data-en="Contact WhatsApp">تواصل واتساب</button>-->
+        <a href="https://wa.me/201110294861?text=مرحباً،%20أريد%20الاستفسار%20عن%20خدماتكم" target="_blank" class="btn btn--primary no-underline">تواصل واتساب</a>
+        <button id="lang-toggle" class="btn btn--lang" aria-label="Toggle Language">EN</button>
+      </div>
+      <button class="header__hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <div class="container hero__container">
+        <h1 class="hero__title" data-ar="معين... أسهل طريقة للوصول لفني محترف بالقرب منك" data-en="Moeen... The easiest way to reach a professional technician near you">فنيين... أسهل طريقة للوصول لفني محترف بالقرب منك</h1>
+        <p class="hero__subtitle" data-ar="نوصلك بأفضل الفنيين في مدينتك لإصلاح الأعطال وتشطيبات البيت بجودة وضمان بكل سهولة وبضغطة زر" data-en="Connecting you with the best technicians in your city for repairs and home finishes with quality and guarantee, easily with one click.">نوصلك بأفضل الفنيين في مدينتك لإصلاح الأعطال وتشطيبات البيت بجودة وضمان بكل سهولة وبضغطة زر</p>
+        <div class="hero__buttons">
+          <a href="#form_contact" class="btn btn--primary no-underline" data-ar="اطلب فني الآن" data-en="Order Technician Now">اطلب فني الآن</a>
+          <a href="https://tally.so/r/Gx6JKe" target="_blank" class="btn btn--outline-white no-underline" data-ar="انضم ك فني" data-en="Join as Technician">انضم كـ فني</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-grid" class="services-grid section-bg">
+      <div class="container">
+        <h2 class="section-title" data-ar="كل الفنيين في مكان واحد" data-en="All Technicians in One Place">كل الفنيين في مكان واحد</h2>
+        <div class="grid grid--6">
+          <!-- Card 1 -->
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/سباك.png" alt="Plumbing">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني سباكة" data-en="Plumber">فني سباكة</h3>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/نجار.png" alt="Carpentry">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني نجارة" data-en="Carpenter">فني نجارة</h3>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/كهربائى.png" alt="Electricity">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني كهرباء" data-en="Electrician">فني كهرباء</h3>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/تكييف.png" alt="AC">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني تبريد وتكييف" data-en="AC Technician">فني تبريد وتكييف</h3>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/الوميتال.png" alt="Alumin">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني الوميتال" data-en="Aluminium Tech">فني الوميتال</h3>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/اجهزة.png" alt="Electronics">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني اجهزة الكترونية" data-en="Electronics Tech">فني اجهزة الكترونية</h3>
+            </div>
+          </div>
+          <!-- Row 2 -->
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/حداد.png" alt="Smith">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني حدادة" data-en="Blacksmith">فني حدادة</h3>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/نقاش.png" alt="Painter">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني دهانات" data-en="Painter">فني دهانات</h3>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/مبلط.png" alt="Ceramic">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني سيراميك" data-en="Ceramic Tech">فني سيراميك</h3>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/محار.png" alt="Plaster">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني محارة" data-en="Plasterer">فني محارة</h3>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/بناء.png" alt="Build">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني بناء" data-en="Builder">فني بناء</h3>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-card__image">
+              <img src="src/نجار مسلح.png" alt="Carpenter Reinf">
+            </div>
+            <div class="service-card__content">
+              <h3 data-ar="فني نجار مسلح" data-en="Reinforced Carpenter">فني نجار مسلح</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="full-service" class="full-service">
+      <div class="container container--narrow">
+        <h2 class="section-title" data-ar="تشطيبات كاملة... من أول التأسيس لحد آخر لمسة" data-en="Full Finishes... From initialization to the last touch">تشطيبات كاملة... من أول التأسيس لحد آخر لمسة</h2>
+        <p class="section-desc" data-ar="بنقدّم خدمة التشطيبات الكاملة للمنازل والمكاتب، بداية من أعمال الكهرباء والسباكة لحد الدهان والديكور، فريق محترف - جودة عالية - تنفيذ في الميعاد - وأسعار واضحة من الأول." data-en="We provide full finishing services for homes and offices, starting from electrical and plumbing works to painting and decoration. Professional team - High quality - On-time execution - Clear prices from the start.">بنقدّم خدمة التشطيبات الكاملة للمنازل والمكاتب، بداية من أعمال الكهرباء والسباكة لحد الدهان والديكور، فريق محترف - جودة عالية - تنفيذ في الميعاد - وأسعار واضحة من الأول.</p>
+        <div class="text-center">
+          <button class="btn btn--primary" data-ar="اطلب معاينة الآن" data-en="Request Inspection Now">اطلب معاينة الآن</button>
+        </div>
+        <div class="full-service__banner">
+          <img src="src/تشطيبات.png" alt="Full Finishing Banner" class="banner-img">
+        </div>
+      </div>
+    </section>
+
+    <section class="features section-bg">
+      <div class="container feature-grid">
+        <div class="feature-image">
+          <img src="src/our.png" alt="Workers" class="rounded-10">
+        </div>
+        <div class="feature-content">
+          <h2 class="section-title align-right" data-ar="اتعرف على رجالتنا" data-en="Meet Our Mens">اتعرف على رجالتنا</h2>
+          <p class="section-desc align-right" data-ar="رجالتنا شغالين وخبرة سنين، وبيقدموا شغل نظيف وجودة عالية يخليك مرتاح ومطمن." data-en="Our men are hardworking with years of experience, providing clean work and high quality to keep you comfortable and reassured.">رجالتنا شقائيين وخبرة سنين، وبيقدموا شغل نظيف وجودة عالية يخليك مرتاح ومطمن.</p>
+          
+          <div class="feature-item">
+            <div class="feature-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="feature-item__text">
+              <h4 data-ar="كفاءة تفرق" data-en="Difference Efficiency">كفاءة تفرق</h4>
+              <p data-ar="فنيين محترفين ومتمرنين على أحدث أساليب الإصلاح والتشطيب." data-en="Professional technicians trained on latest repair and finishing methods.">فنيين محترفين ومتمرنين على أحدث أساليب الإصلاح والتشطيب.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-check"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg>
+            </div>
+            <div class="feature-item__text">
+              <h4 data-ar="دايماً جاهزين" data-en="Always Ready">دايماً جاهزين</h4>
+              <p data-ar="أقرب فني ليك... يوصلك بسرعة ويحل المشكلة من غير لف ودوران." data-en="Closest technician to you... reaches quickly and solves problem without stalling.">أقرب فني ليك... يوصلك بسرعة ويحل المشكلة من غير لف ودوران.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div class="feature-item__text">
+              <h4 data-ar="سلامتك أولويتنا" data-en="Your Safety Our Priority">سلامتك أولويتنا</h4>
+              <p data-ar="إجراءات أمان دقيقة... وأدوات معقمة... وجودة مضمونة في كل خدمة." data-en="Precise safety measures... sterilized tools... guaranteed quality in every service.">إجراءات أمان دقيقة... وأدوات معقمة... وجودة مضمونة في كل خدمة.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="form_contact" class="contact">
+      <div class="container container--narrow">
+        <h2 class="section-title" data-ar="اطلب الآن" data-en="Order Now">اطلب الآن</h2>
+        <p class="section-desc" data-ar="سيب بياناتك وهنتواصل معاك في أسرع وقت وهتلاقي الفني يتواصل معاك وهو على الباب" data-en="Leave your details and we will contact you as soon as possible, you will find the technician calling you while at your door.">سيب بياناتك وهنتواصل معاك في أسرع وقت وهتلاقي الفني يتواصل معاك وهو على الباب</p>
+        
+        <form class="contact-form" action="https://formspree.io/f/xlgaqzaz" method="post">
+          <div class="form-group">
+            <label for="name" data-ar="اسم حضرتك" data-en="Your Name">اسم حضرتك</label>
+            <input type="text" id="name" name="name" placeholder="احمد حسين" required>
+          </div>
+          <div class="form-group">
+            <label for="phone" data-ar="رقم الهاتف" data-en="Phone Number">رقم الهاتف</label>
+            <div class="phone-input">
+              <span>+20</span>
+              <input type="tel" id="phone" name="phone" placeholder="01234567890" required>
+            </div>
+          </div>
+          <!--<div class="form-group">
+            <label for="email" data-ar="بريدك الإلكتروني" data-en="Your Email">بريدك الإلكتروني</label>
+            <input type="email" id="email" name="email" placeholder="name@email.com">
+          </div>-->
+          <div class="form-group">
+            <label for="service" data-ar="نوع الخدمة" data-en="Service Type">نوع الخدمة</label>
+            <select id="service" name="service">
+              <option data-ar="طلب معاينة تشطيبات" data-en="Request for inspection of my property">طلب  معاينة تشطيبات</option>
+              <option data-ar="فني سباكة" data-en="Plumbing">فني سباكة</option>
+              <option data-ar="فني نجارة" data-en="Carpentry">فني نجارة</option>
+              <option data-ar="فني كهرباء" data-en="Electrician">فني كهرباء</option>
+              <option data-ar="فني تبريد وتكييف" data-en="Refrigeration and air conditioning technician">فني تبريد وتكييف</option>
+              <option data-ar="فني الوميتال" data-en="Aluminum technician">فني الوميتال</option>
+              <option data-ar="فني اجهزة الكترونية" data-en="Electronics Technician">فني اجهزة الكترونية</option>
+              <option data-ar="فني حدادة" data-en="blacksmith technician">فني حدادة</option>
+              <option data-ar="فني دهانات" data-en="Painting technician">فني دهانات</option>
+              <option data-ar="فني سيراميك" data-en="Ceramic technician">فني سيراميك</option>
+              <option data-ar="فني محارة" data-en="Plastering technician">فني محارة</option>
+              <option data-ar="فني بناء" data-en="Construction technician">فني بناء</option>
+              <option data-ar="فني نجار مسلح" data-en="Armed carpenter">فني نجار مسلح</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="service" data-ar="المدينة" data-en="City">المدينة</label>
+            <select id="cites" name="cites">
+              <option data-ar="الاسكندرية" data-en="Alexandria">الاسكندرية</option>
+              <option data-ar="الزقازيق" data-en="Zagazig">الزقازيق</option>
+              <option data-ar="العاشر من رمضان" data-en="10th of Ramadan">العاشر من رمضان</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="address" data-ar="العنوان بالتفصيل" data-en="Detailed Address">العنوان بالتفصيل</label>
+            <input type="text" id="address" name="address" placeholder="00 ش عمارات - #########">
+          </div>
+          <div class="form-group">
+            <label for="description" data-ar="وصف المشكلة" data-en="Issue Description">وصف المشكلة</label>
+            <textarea id="description" name="description" placeholder="حصلت قفلة عندي في الكهرباء ومحتاج فني في أسرع وقت"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary full-width" data-ar="إرسال" data-en="Send">إرسال</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="who_me" class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4 data-ar="روابط مفيدة" data-en="Quick Links">روابط مفيدة</h4>
+        <ul class="footer-links">
+          <li><a href="#" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+          <li><a href="#" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
+          <li><a href="#" data-ar="الأخبار" data-en="News">الأخبار</a></li>
+          <li><a href="#" data-ar="الوظائف" data-en="Jobs">الوظائف</a></li>
+          <li><a href="#" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+  <h4 data-ar="من نحن" data-en="About Us">من نحن</h4>
+
+  <p 
+    data-ar="مُعين... هي شركة خدمات منزلية هدفها توفرلك راحة بال حقيقية في كل تفاصيل بيتك. بدأنا بفكرة بسيطة: ليه كل صاحب بيت يفضل محتار يدور على صنايعي شاطر ومضمون؟ ومن هنا قررنا نكون 'المُعين' اللي تقدر تعتمد عليه في أي وقت."
+    data-en="Moeen is a home services company that aims to give you real peace of mind in every detail of your home. We started with a simple idea: why should every homeowner struggle to find a skilled and reliable technician? That’s why we decided to be 'Moeen' — the service you can rely on anytime."
+  >
+    مُعين... هي شركة خدمات منزلية هدفها توفرلك راحة بال حقيقية في كل تفاصيل بيتك. بدأنا بفكرة بسيطة: ليه كل صاحب بيت يفضل محتار يدور على صنايعي شاطر ومضمون؟ ومن هنا قررنا نكون "المُعين" اللي تقدر تعتمد عليه في أي وقت.
+  </p>
+
+  <p 
+    style="margin-top: 10px;"
+    data-ar="عندنا فريق محترف من الفنيين المدربين، كلهم بالزي الرسمي ومجهزين بأحدث الأدوات، علشان نضمن إن كل خدمة بتتعمل بأعلى جودة وفي أسرع وقت. سواء سباكة، كهرباء، صيانة، تشطيب، أو أي خدمة محتاجها... إحنا موجودين."
+    data-en="We have a professional team of trained technicians, all in uniform and equipped with the latest tools, to ensure every service is delivered with the highest quality and in the fastest time. Whether it’s plumbing, electrical work, maintenance, finishing, or any service you need… we’re here."
+  >
+    عندنا فريق محترف من الفنيين المدربين، كلهم بالزي الرسمي ومجهزين بأحدث الأدوات، علشان نضمن إن كل خدمة بتتعمل بأعلى جودة وفي أسرع وقت. سواء سباكة، كهرباء، صيانة، تشطيب، أو أي خدمة محتاجها... إحنا موجودين.
+  </p>
+
+  <p 
+    style="margin-top: 10px;"
+    data-ar="في مُعين، بنهتم بالتفاصيل، وبنحافظ على احترام وقتك وبيتك. هدفنا إنك تلاقي حل سريع، مضمون، وبسعر مناسب... من غير لف ولا دوخة."
+    data-en="At Moeen, we care about details and respect your time and your home. Our goal is to provide a fast, reliable solution at a fair price… without hassle."
+  >
+    في مُعين، بنهتم بالتفاصيل، وبنحافظ على احترام وقتك وبيتك. هدفنا إنك تلاقي حل سريع، مضمون، وبسعر مناسب... من غير لف ولا دوخة.
+  </p>
+
+  <p 
+    style="margin-top: 10px;"
+    data-ar="مُعين... اسم تثق فيه، وخدمة تعتمد عليها."
+    data-en="Moeen… a name you can trust, and a service you can rely on."
+  >
+    مُعين... اسم تثق فيه، وخدمة تعتمد عليها.
+  </p>
+
+  <p 
+    style="margin-top: 10px;"
+    data-ar="مُعين... دايمًا جاهزين 💪"
+    data-en="Moeen… always ready 💪"
+  >
+    مُعين... دايمًا جاهزين 💪
+  </p>
+</div>
+      <div class="footer-col">
+        <h4 data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h4>
+        <ul class="footer-contact">
+          <li><a href="https://wa.me/201110294861?text=مرحباً،%20أريد%20الاستفسار%20عن%20خدماتكم" target="_blank">تواصل على واتساب</a></li>
+          <li><a href="mailto:zclick4tech@gmail.com" target="_blank">ابعتلنا إيميل</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/1EEzZoVuZq/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://www.instagram.com/moeen_0102?utm_source=qr&igsh=MzdoNW84ajc5NWN3" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+          <!--<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>-->
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; معين ... دايما جاهزين 💪 </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
